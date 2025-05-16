@@ -1,9 +1,5 @@
-
-// ========================================================= Cycle Detection  =========================================================
-
-// ****************************************** IMPORTANT PART OF THIS PROJECT ********************************************************
 // Excel Cells is connected in one way i.e. 
-// It is a Directed Graph
+//  Directed Graph
 // so we need to Detect the Cycle in Directed Graph
 // we use DFS(DEPTH-FIRST-SEARCH) to detect the Cycle
 function checkCycle(address, newFormula) {
