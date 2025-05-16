@@ -84,7 +84,7 @@ formulaBar.addEventListener("keydown", function(e) {
         let value = evaluateFormula(currentFormula);
 
         //1.2.3
-        //  //jis cell cell ke liye apply kar rhe hai (address bar wala cell)
+        //  //for which cell it is applied (address bar wala cell)
         // ui-> value update
         // db -> value, formula update 
         setCell(value, currentFormula);
